@@ -586,14 +586,12 @@ class AppointmentBooking
 						break;
 					}
 				}
-				else 
+			}
+			else 
 				{
 					System.out.println("Login unsuccessfull..");
-					Thread.sleep(900);
-					break;
-					
-				}
-			}	
+					Thread.sleep(900);	
+				}	
 	}
 
 	public static void main(String[] args) throws Exception   
